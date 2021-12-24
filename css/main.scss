@@ -120,7 +120,7 @@ a {
 }
 
 header {
-    background: url('/assets/header-bg.png');
+    background: url('assets/header-bg.png');
     background-repeat: repeat;
 
     @media (max-width: 768px) {
@@ -310,7 +310,7 @@ header {
 }
 
 .hamburger {
-    background: url('/assets/hamburger.svg');
+    background: url('assets/hamburger.svg');
     height: 32px;
     width: 40px;
 }
@@ -402,7 +402,7 @@ header {
 
                     &::after {
                         display: inline-block;
-                        content: url('/assets/chevron.svg');
+                        content: url('assets/chevron.svg');
                         margin-left: 10px;
                         stroke: $main-blue;
 
@@ -710,7 +710,7 @@ main {
     transform: translate(calc(-50% - 100px), 0);
 
     &::before {
-        content: url('/assets/left-arrow.svg');
+        content: url('assets/left-arrow.svg');
     }
 
     @media (max-width: 768px) {
@@ -734,7 +734,7 @@ main {
     transform: translate(calc(80px + 50%), 0);
 
     &::before {
-        content: url('/assets/right-arrow.svg');
+        content: url('assets/right-arrow.svg');
     }
 
     @media (max-width: 768px) {
