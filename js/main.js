@@ -127,6 +127,13 @@ $(document).ready(function () {
                     slidesToScroll: 2,
                 },
             },
+            {
+                breakpoint: 578,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
         ],
     });
 });
