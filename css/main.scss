@@ -536,7 +536,7 @@ main {
         height: 623px;
         position: absolute;
         z-index: -1;
-        transform: translate(calc(-35vw + 809px));
+        transform: translate(calc(-35vw + 909px));
 
         @media (max-width: 1200px) {
             height: 411px;
@@ -691,7 +691,7 @@ main {
         }
 
         & .overlay {
-            backdrop-filter: blur(30px);
+            background: #344977CC;
         }
     }
 }
@@ -961,6 +961,7 @@ footer {
 .formats-carousel {
     .carousel-item {
         background: #fff;
+        box-shadow: 10px 40px 50px 0px #E5E9F666;
     }
 
     & img {
@@ -982,6 +983,7 @@ footer {
     .carousel-item {
         background-size: cover !important;
         background-repeat: no-repeat !important;
+        box-shadow: 10px 40px 50px 0px #E5E9F666;
 
         height: 436px;
         width: 420px;
@@ -1073,12 +1075,13 @@ footer {
     max-height: 800px;
     overflow: hidden;
 
+    transition: max-height 0.5s ease;
+
     * {
         color: #fff;
     }
 
     &.expanded {
-        max-height: 100%;
         overflow: visible;
     }
 }

@@ -638,8 +638,8 @@ main a {
   height: 623px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(calc(-35vw + 809px));
-          transform: translate(calc(-35vw + 809px));
+  -webkit-transform: translate(calc(-35vw + 909px));
+          transform: translate(calc(-35vw + 909px));
 }
 
 @media (max-width: 1200px) {
@@ -829,8 +829,7 @@ main a {
 }
 
 #news .item .overlay {
-  -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  background: #344977CC;
 }
 
 .slick-slider {
@@ -1125,6 +1124,8 @@ footer ul li {
 
 .formats-carousel .carousel-item {
   background: #fff;
+  -webkit-box-shadow: 10px 40px 50px 0px #E5E9F666;
+          box-shadow: 10px 40px 50px 0px #E5E9F666;
 }
 
 .formats-carousel img {
@@ -1145,6 +1146,8 @@ footer ul li {
 .cases-carousel .carousel-item {
   background-size: cover !important;
   background-repeat: no-repeat !important;
+  -webkit-box-shadow: 10px 40px 50px 0px #E5E9F666;
+          box-shadow: 10px 40px 50px 0px #E5E9F666;
   height: 436px;
   width: 420px;
 }
@@ -1246,6 +1249,8 @@ footer ul li {
   padding: 0;
   max-height: 800px;
   overflow: hidden;
+  -webkit-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
 }
 
 .history-grid * {
@@ -1253,7 +1258,6 @@ footer ul li {
 }
 
 .history-grid.expanded {
-  max-height: 100%;
   overflow: visible;
 }
 

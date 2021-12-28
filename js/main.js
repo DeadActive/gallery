@@ -36,14 +36,18 @@ $('.button-expand').click((e) => {
     const a = $(e.currentTarget).find('a>div')
     const img = $(e.currentTarget).find('a>img')
 
+    const scrollHeight = targetEl[0].scrollHeight
+
     if(targetEl.hasClass('expanded')){
         targetEl.removeClass('expanded')
+        targetEl.css("max-height", "")
         img.removeClass('expanded')
         a.text('Развернуть')
         return
     }
 
     targetEl.addClass('expanded')
+    targetEl.css("max-height", scrollHeight + 'px')
     img.addClass('expanded')
     a.text('Свернуть')
 })
