@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/about.css" />
+    </head>
+    <body>
+        <div class="background">
+            <div class="billboard-bg">
+                <img
+                    src="assets/billboard-bg.png"
+                    alt=""
+                    class="bg d-none d-md-block"
+                />
+                <img
+                    src="assets/logo.png"
+                    alt=""
+                    class="logo-tablet d-none d-md-block d-xl-none"
+                />
+            </div>
+
+            <div class="blur-overlay"></div>
+            <img src="assets/billboard.png" alt="" class="billboard" />
+            <img src="assets/logo.png" alt="" class="logo d-none d-xl-block" />
+        </div>
+
+        <header>
+            <div class="container header">
+                <nav class="menu d-none d-md-block">
+                    <div class="row">
+                        <div class="col-4 col-xl-5"></div>
+                        <ul class="col-4 col-xl-3 d-flex menu-wrapper">
+                            <li>
+                                <a href="#" class="menu-link">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="col-1 d-none d-xl-block"></div>
+                        <div class="col-3 col-xl-2 d-flex align-items-center">
+                            <a href="phone:+74952252040" class="menu-link"
+                                >+7 495 225 20 40</a
+                            >
+                        </div>
+                        <div
+                            class="
+                                col-1
+                                d-flex
+                                align-items-center
+                                justify-content-end
+                            "
+                        >
+                            <div class="menu-search">
+                                <img
+                                    src="assets/magnifiying-glass.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <nav class="menu d-block d-md-none">
+                    <div class="row">
+                        <div class="col">
+                            <img src="assets/logo.png" alt="" class="logo" />
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <a href="#" class="hamburger"></a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="row header-menu d-none d-md-flex">
+                    <div class="col-4 col-xl-5"></div>
+                    <div class="col-8 col-xl-7 col-xxl-6">
+                        <ul class="p-0 d-flex justify-content-between">
+                            <li class="dropdown">
+                                <a
+                                    class="dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    id="productsMenu"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Продукты
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="productsMenu"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Биллборд</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Крупный формат</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                        <ul class="submenu dropdown-menu">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Биллборд 6Х3</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Призмы 6Х3</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Цифровые носители</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Спецпроекты</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Гарантии</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Правила</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a
+                                    class="dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    id="operMenu"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Региональным операторам
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="operMenu"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Биллборд</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Крупный формат</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Цифровые носители</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a
+                                    class="dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    id="casesMenu"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Кейсы
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="casesMenu"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Биллборд</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Крупный формат</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Цифровые носители</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Уличная мебель</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-4 col-xl-5"></div>
+                    <div class="col-12 col-md-8 col-xl-7 col-xxl-6">
+                        <h3 class="color-accent mb-50px">О нас</h3>
+                        <div>
+                            <p>
+                                Компания Gallery осуществляет полный комплекс
+                                услуг по созданию, установке и обслуживанию
+                                более 30 видов рекламных конструкций, включая
+                                билборды, суперборды, уличную мебель, крупный
+                                формат, нестандартные носители и уличные
+                                указатели. Gallery является флагманом
+                                digital-направления на российском outdoor-рынке,
+                                обладает единственной в стране федеральной сетью
+                                стандартных цифровых рекламных поверхностей
+                                самого популярного среди рекламодателей формата
+                                3Х6 м.
+                            </p>
+                            <p>
+                                Всего сеть рекламных конструкций Gallery
+                                насчитывает более 13 000 собственных рекламных
+                                поверхностей в 80 городах России. Уникальной
+                                особенностью рекламных носителей Gallery
+                                является индивидуальная разработка конструкций с
+                                учетом архитектурных, ландшафтных и
+                                индивидуальных особенностей каждого города.
+                            </p>
+                            <p>
+                                Для реализации федеральных рекламных кампаний
+                                Gallery предоставляет услуги медиабаинга в более
+                                чем 500 городах страны.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid bg-2 d-none d-md-block">
+                <div class="image-wrapper p-0">
+                    <img
+                        src="assets/billboard bg 2.png"
+                        class="billboard-2-bg"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <div class="container">
+                <section id="products">
+                    <div class="row">
+                        <div
+                            class="
+                                d-flex
+                                justify-content-between
+                                align-items-center
+                                mb-50px
+                            "
+                        >
+                            <h3 class="color-accent">Рекламные продукты</h3>
+                            <div class="d-none d-md-block">
+                                <a href="#" class="color-sec">Подробнее →</a>
+                            </div>
+                        </div>
+
+                        <div class="products-carousel">
+                            <div
+                                class="carousel-item"
+                                style="background: url('assets/product1.png')"
+                            >
+                                <div class="caption">
+                                    Стандартное размещение
+                                </div>
+                            </div>
+                            <div
+                                class="carousel-item"
+                                style="background: url('assets/product1.png')"
+                            >
+                                <div class="caption">
+                                    Стандартное размещение
+                                </div>
+                            </div>
+                            <div
+                                class="carousel-item"
+                                style="background: url('assets/product1.png')"
+                            >
+                                <div class="caption">
+                                    Стандартное размещение
+                                </div>
+                            </div>
+                            <div
+                                class="carousel-item"
+                                style="background: url('assets/product1.png')"
+                            >
+                                <div class="caption">
+                                    Стандартное размещение
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end d-md-none">
+                            <a href="#" class="color-sec">Подробнее →</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="cities" class="mt-fix">
+                    <div class="row">
+                        <h3 class="color-accent mb-50px">Наши города</h3>
+
+                        <div class="col-12 d-none d-md-block">
+                            <img src="assets/map.png" alt="" />
+                        </div>
+                        <div class="col-12 d-block d-md-none">
+                            <ul>
+                                <li>Барнаул</li>
+                                <li>Бийск</li>
+                                <li>Владивосток</li>
+                                <li>Волгоград</li>
+                                <li>Воронеж</li>
+                                <li>Екатеринбург</li>
+                                <li>Иркутск</li>
+                                <li>Краснодар</li>
+                                <li>Красноярск</li>
+                                <li>Москва</li>
+                                <li>Новгород</li>
+                                <li>Новосибирск</li>
+                                <li>Нижний Тагил</li>
+                                <li>Пермь</li>
+                                <li>Саратов</li>
+                                <li>Сочи</li>
+                                <li>Ставрополь</li>
+                                <li>Тамбов</li>
+                                <li>Тюмень</li>
+                                <li>Уфа</li>
+                                <li>Хабаровск</li>
+                                <li>Челябинск</li>
+                                <li>Санкт-Петербург</li>
+                                <li>Самара</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="formats">
+                    <div class="row">
+                        <div
+                            class="
+                                d-flex
+                                justify-content-between
+                                align-items-center
+                                mb-50px
+                            "
+                        >
+                            <h3 class="color-accent">Рекламные форматы</h3>
+                            <div class="d-none d-md-block">
+                                <a href="#" class="color-sec">Подробнее →</a>
+                            </div>
+                        </div>
+
+                        <div class="formats-carousel">
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                "
+                            >
+                                <img src="assets/billboards.png" alt="" />
+                                <div class="caption">Биллборды 3х6</div>
+                            </div>
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                "
+                            >
+                                <img src="assets/supersite.png" alt="" />
+                                <div class="caption">Суперсайты</div>
+                            </div>
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                "
+                            >
+                                <img src="assets/digital-board.png" alt="" />
+                                <div class="caption">Digital city борд</div>
+                            </div>
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    flex-column
+                                    justify-content-center
+                                "
+                            >
+                                <img src="assets/billboards.png" alt="" />
+                                <div class="caption">Биллборды 3х6</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end d-md-none">
+                            <a href="#" class="color-sec">Подробнее →</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="tech" class="mt-fix">
+                    <div class="row">
+                        <div
+                            class="
+                                d-flex
+                                justify-content-between
+                                align-items-center
+                                mb-50px
+                            "
+                        >
+                            <h3 class="color-accent">
+                                Как измерить эффективность
+                            </h3>
+                            <div class="d-none d-md-block">
+                                <a href="#" class="color-sec">Подробнее →</a>
+                            </div>
+                        </div>
+
+                        <div class="tech-carousel">
+                            <div class="carousel-item tech">
+                                <div
+                                    class="
+                                        d-flex
+                                        justify-content-around
+                                        align-items-center
+                                        h-100
+                                        content
+                                    "
+                                >
+                                    <img
+                                        src="assets/diagram.png"
+                                        alt=""
+                                        class="icon d-none d-md-block"
+                                    />
+                                    <div
+                                        class="
+                                            d-flex
+                                            flex-column
+                                            w-50
+                                            flex-grow-1
+                                        "
+                                    >
+                                        <h2>Sales Lift</h2>
+                                        <h4>
+                                            При помощи соединения собранных нами
+                                            данных MAC-адресов и данных адресов
+                                            и данных о покупках пользователя мы
+                                            покупках пользователя мы можем
+                                            строить Sales Lift
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item tech">
+                                <div
+                                    class="
+                                        d-flex
+                                        justify-content-around
+                                        align-items-center
+                                        h-100
+                                        content
+                                    "
+                                >
+                                    <img
+                                        src="assets/diagram.png"
+                                        alt=""
+                                        class="icon d-none d-md-block"
+                                    />
+                                    <div
+                                        class="
+                                            d-flex
+                                            flex-column
+                                            w-50
+                                            flex-grow-1
+                                        "
+                                    >
+                                        <h2>Sales Lift</h2>
+                                        <h4>
+                                            При помощи соединения собранных нами
+                                            данных MAC-адресов и данных адресов
+                                            и данных о покупках пользователя мы
+                                            покупках пользователя мы можем
+                                            строить Sales Lift
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item tech">
+                                <div
+                                    class="
+                                        d-flex
+                                        justify-content-around
+                                        align-items-center
+                                        h-100
+                                        content
+                                    "
+                                >
+                                    <img
+                                        src="assets/diagram.png"
+                                        alt=""
+                                        class="icon d-none d-md-block"
+                                    />
+                                    <div
+                                        class="
+                                            d-flex
+                                            flex-column
+                                            w-50
+                                            flex-grow-1
+                                        "
+                                    >
+                                        <h2>Sales Lift</h2>
+                                        <h4>
+                                            При помощи соединения собранных нами
+                                            данных MAC-адресов и данных адресов
+                                            и данных о покупках пользователя мы
+                                            покупках пользователя мы можем
+                                            строить Sales Lift
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end d-md-none">
+                            <a href="#" class="color-sec">Подробнее →</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="cases" class="mt-fix">
+                    <div class="row">
+                        <div
+                            class="
+                                d-flex
+                                justify-content-between
+                                align-items-center
+                                mb-50px
+                            "
+                        >
+                            <h3 class="color-accent">Успешные кейсы</h3>
+                            <div class="d-none d-md-block">
+                                <a href="#" class="color-sec">Подробнее →</a>
+                            </div>
+                        </div>
+
+                        <div class="cases-carousel">
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                "
+                                style="background: url('assets/case1.png')"
+                            >
+                                <div class="caption">
+                                    Большие данные и аналитика DOOH для
+                                    “Авиапарка”
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                "
+                                style="background: url('assets/case1.png')"
+                            >
+                                <div class="caption">
+                                    Большие данные и аналитика DOOH для
+                                    “Авиапарка”
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                "
+                                style="background: url('assets/case1.png')"
+                            >
+                                <div class="caption">
+                                    Большие данные и аналитика DOOH для
+                                    “Авиапарка”
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    carousel-item
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                "
+                                style="background: url('assets/case1.png')"
+                            >
+                                <div class="caption">
+                                    Большие данные и аналитика DOOH для
+                                    “Авиапарка”
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end d-md-none">
+                            <a href="#" class="color-sec">Подробнее →</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="news" class="mt-fix">
+                    <div class="row">
+                        <div
+                            class="
+                                d-flex
+                                justify-content-between
+                                align-items-center
+                                mb-50px
+                            "
+                        >
+                            <h3 class="color-accent">Новости</h3>
+                            <div class="d-none d-md-block">
+                                <a href="#" class="color-sec">Подробнее →</a>
+                            </div>
+                        </div>
+                        <div class="d-none row d-md-flex">
+                            <div
+                                class="col-4 d-flex item align-items-end my-3"
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-4 d-flex item align-items-end my-3"
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-4 d-flex item align-items-end my-3"
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-4 d-flex item align-items-end my-3"
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-4 d-flex item align-items-end my-3"
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-4 d-flex item align-items-end my-3"
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-carousel d-block d-md-none">
+                            <div
+                                class="
+                                    col-4
+                                    d-flex
+                                    carousel-item
+                                    item
+                                    align-items-end
+                                    my-3
+                                "
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    col-4
+                                    d-flex
+                                    carousel-item
+                                    item
+                                    align-items-end
+                                    my-3
+                                "
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    col-4
+                                    d-flex
+                                    carousel-item
+                                    item
+                                    align-items-end
+                                    my-3
+                                "
+                                style="background: url(assets/preview.png)"
+                            >
+                                <div class="w-100 overlay">
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-center
+                                            align-items-center
+                                            h-100
+                                            content
+                                        "
+                                    >
+                                        <h5 class="w-75 color-white">
+                                            Gallery запускает новый цифровой
+                                            сервис
+                                        </h5>
+                                        <span class="color-white">
+                                            12.08.21
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end d-md-none">
+                            <a href="#" class="color-sec">Подробнее →</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="partners">
+                    <div class="row">
+                        <div
+                            class="
+                                d-flex
+                                justify-content-between
+                                align-items-center
+                                mb-50px
+                            "
+                        >
+                            <h3 class="color-accent">Партнеры</h3>
+                            <div class="d-none d-md-block">
+                                <a href="#" class="color-sec">Подробнее →</a>
+                            </div>
+                        </div>
+                        <div class="partners-carousel">
+                            <div class="carousel-item">
+                                <img src="assets/adidas.png" alt="" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/cola.png" alt="" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/disney.png" alt="" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/adidas.png" alt="" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/cola.png" alt="" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/disney.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end d-md-none">
+                            <a href="#" class="color-sec">Подробнее →</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row mt-fix">
+                    <h3 class="color-accent mb-50px">Контакты</h3>
+                    <div class="block">
+                        <div
+                            class="
+                                content
+                                row
+                                align-items-center
+                                justify-content-center
+                            "
+                        >
+                            <div
+                                class="col-md-6 col-12 left d-flex flex-column"
+                            >
+                                <img
+                                    src="assets/logo-black.png"
+                                    alt=""
+                                    class="logo-dark mb-3"
+                                />
+                                <h6 class="mb-3">
+                                    Gallery – один из крупнейших операторов
+                                    наружной рекламы России.
+                                </h6>
+                                <div
+                                    class="
+                                        d-flex
+                                        justify-content-between
+                                        d-none d-md-block
+                                    "
+                                >
+                                    <div class="col-8">
+                                        <p class="mb-0 text-small">
+                                            ООО “ГЭЛЛЭРИ СЕРВИС”
+                                        </p>
+                                        <p class="mb-0 text-xsmall">
+                                            2021 Все права защищены
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-between
+                                            align-items-center
+                                            col-4
+                                        "
+                                    >
+                                        <a href="#" class="px-4">
+                                            <img
+                                                src="assets/FacebookLogo.png"
+                                                alt=""
+                                            />
+                                        </a>
+                                        <a href="#">
+                                            <img
+                                                src="assets/YoutubeLogo.png"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    right
+                                    col-md-6 col-12
+                                    d-flex
+                                    justify-content-between
+                                "
+                            >
+                                <div class="links">
+                                    <a href="#">О Gallery</a>
+                                    <a href="#">Правовая информация</a>
+                                    <a href="#">Преимущества</a>
+                                    <a href="#">Документы</a>
+                                    <a href="#">Технологии</a>
+                                    <a href="#">Требования к материалам</a>
+                                    <a href="#">Запуск рекламы</a>
+                                    <a href="#">Политика конфиденциальности</a>
+                                    <a href="#">Контакты</a>
+                                    <a href="#">Обратная связь</a>
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    d-flex
+                                    justify-content-between
+                                    d-block d-md-none
+                                    mt-4
+                                "
+                            >
+                                <div>
+                                    <p class="mb-0 text-small">
+                                        ООО “ГЭЛЛЭРИ СЕРВИС”
+                                    </p>
+                                    <p class="mb-0 text-xsmall">
+                                        2021 Все права защищены
+                                    </p>
+                                </div>
+                                <div
+                                    class="
+                                        d-flex
+                                        justify-content-between
+                                        align-items-center
+                                    "
+                                >
+                                    <a href="#" class="px-4">
+                                        <img
+                                            src="assets/FacebookLogo.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a href="#">
+                                        <img
+                                            src="assets/YoutubeLogo.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

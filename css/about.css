@@ -1,0 +1,11 @@
+header {
+  background: url("../assets/header-bg.png");
+  background-repeat: repeat;
+}
+
+@media (max-width: 768px) {
+  header {
+    background: url("../assets/header-bg.png");
+  }
+}
+/*# sourceMappingURL=about.css.map */

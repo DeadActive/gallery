@@ -1,0 +1,8 @@
+header {
+    background: url('../assets/header-bg.png');
+    background-repeat: repeat;
+
+    @media (max-width: 768px) {
+        background: url('../assets/header-bg.png');
+    }
+}
