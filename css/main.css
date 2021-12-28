@@ -832,6 +832,10 @@ main a {
   padding-bottom: 30px;
 }
 
+.slick-arrow {
+  z-index: 1;
+}
+
 .slick-prev {
   position: absolute;
   display: block;
