@@ -115,7 +115,7 @@ a {
 }
 
 .color-accent {
-  color: #ed713b;
+  color: #ed713b !important;
 }
 
 .color-main {
@@ -1201,6 +1201,63 @@ footer ul li {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+#history * {
+  color: #fff;
+}
+
+#history .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 60px 35px;
+}
+
+#history .card p {
+  font-size: 15px;
+}
+
+#history .blue {
+  background-color: #344977;
+}
+
+#history .orange {
+  background-color: #ed713b;
+}
+
+#history .grey {
+  background-color: #626B7C;
+}
+
+.history-grid {
+  padding: 0;
+}
+
+.grid-item {
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  width: 32%;
+}
+
+@media (max-width: 1200px) {
+  .grid-item {
+    width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .grid-item {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

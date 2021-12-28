@@ -96,11 +96,11 @@ a {
 }
 
 .color-accent {
-    color: $accent;
+    color: $accent !important;
 }
 
 .color-main {
-    color: $main-blue;
+    color: $main-blue !important;
 }
 
 .color-white {
@@ -292,6 +292,10 @@ header {
             font-size: 20px;
             height: 50px;
         }
+    }
+
+    &-expand img.expanded {
+        transform: rotate(180deg);
     }
 }
 
@@ -1034,5 +1038,91 @@ footer {
         margin-left: 0.7rem;
         margin-right: 0.7rem;
         margin-bottom: 0.5rem;
+    }
+}
+
+#history {
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        p {
+            font-size: 15px;
+        }
+
+        padding: 60px 35px;
+    }
+
+    .blue {
+        background-color: $main-blue;
+    }
+    .orange {
+        background-color: $accent;
+    }
+    .grey {
+        background-color: #626b7c;
+    }
+}
+
+#map {
+    height: 800px;
+}
+
+.history-grid {
+    padding: 0;
+    max-height: 800px;
+    overflow: hidden;
+
+    * {
+        color: #fff;
+    }
+
+    &.expanded {
+        max-height: 100%;
+        overflow: visible;
+    }
+}
+
+.grid-item {
+    margin-bottom: 20px;
+
+    width: 32%;
+
+    @media (max-width: 1200px) {
+        width: 30%;
+    }
+
+    @media (max-width: 992px) {
+        width: 100%;
+    }
+
+    &.width-2 {
+        width: 64%;
+
+        @media (max-width: 1200px) {
+            width: 60%;
+        }
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+}
+
+.block-card {
+    background: #fff;
+    box-shadow: 10px 40px 50px 0px #e5e9f666;
+    padding: 60px;
+
+    @media (max-width: 992px) {
+        padding: 50px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 30px;
+    }
+
+    @media (max-width: 575px) {
+        padding: 16px;
     }
 }

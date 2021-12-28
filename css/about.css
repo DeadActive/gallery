@@ -6,6 +6,17 @@ header {
 @media (max-width: 768px) {
   header {
     background: url("../assets/header-bg.png");
+    height: 100%;
   }
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: auto;
+  }
+}
+
+.hamburger {
+  background: url("../assets/hamburger-black.svg");
 }
 /*# sourceMappingURL=about.css.map */

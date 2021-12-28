@@ -136,4 +136,9 @@ $(document).ready(function () {
             },
         ],
     });
+
+    $('.history-grid').masonry({
+        itemSelector: '.grid-item',
+        gutter: 20
+    })
 });

@@ -4,5 +4,16 @@ header {
 
     @media (max-width: 768px) {
         background: url('../assets/header-bg.png');
+        height: 100%;
     }
+}
+
+.header{
+    @media (max-width: 992px) {
+        height: auto;
+    }
+}
+
+.hamburger{
+    background: url('../assets/hamburger-black.svg');
 }
