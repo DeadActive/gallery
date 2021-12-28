@@ -89,6 +89,10 @@ h6 {
 a {
     text-decoration: none;
     color: $main-blue;
+
+    &:hover{
+        color: $accent;
+    }
 }
 
 .color-sec {
@@ -294,8 +298,13 @@ header {
         }
     }
 
+    &-expand{
+        padding: 0;
+    }
+
     &-expand img.expanded {
         transform: rotate(180deg);
+        
     }
 }
 
@@ -369,6 +378,10 @@ header {
             &.show {
                 color: $accent;
                 font-weight: 600;
+            }
+
+            &:hover{
+                color: $accent;
             }
         }
 
@@ -523,6 +536,7 @@ main {
     position: absolute;
     overflow: hidden;
     height: 100vh;
+    pointer-events: none;
 }
 
 .image-wrapper {
