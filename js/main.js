@@ -27,7 +27,29 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+$('.button-expand').click((e) => {
+    e.preventDefault()
+
+    const target = $(e.currentTarget).data('target')
+    const targetEl = $(`#${target}`)
+
+    const a = $(e.currentTarget).find('a>div')
+    const img = $(e.currentTarget).find('a>img')
+
+    if(targetEl.hasClass('expanded')){
+        targetEl.removeClass('expanded')
+        img.removeClass('expanded')
+        a.text('Развернуть')
+        return
+    }
+
+    targetEl.addClass('expanded')
+    img.addClass('expanded')
+    a.text('Свернуть')
+})
+
 $(document).ready(function () {
+
     $('.products-carousel').slick({
         dots: true,
         infinite: true,
@@ -38,7 +60,7 @@ $(document).ready(function () {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    variableWidth: true
+                    variableWidth: true,
                 },
             },
         ],
@@ -53,7 +75,7 @@ $(document).ready(function () {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    variableWidth: true
+                    variableWidth: true,
                 },
             },
         ],
@@ -69,7 +91,7 @@ $(document).ready(function () {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    variableWidth: true
+                    variableWidth: true,
                 },
             },
         ],
@@ -139,6 +161,6 @@ $(document).ready(function () {
 
     $('.history-grid').masonry({
         itemSelector: '.grid-item',
-        gutter: 20
-    })
+        gutter: 20,
+    });
 });
